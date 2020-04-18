@@ -8,6 +8,8 @@ const cors = require('cors');
 // Variável que armazena a aplicação
 const app = express();
 
+// mudei aqui
+
 app.use(cors());
 
 // Informando ao programa que as requisições serão feitas no formato json
